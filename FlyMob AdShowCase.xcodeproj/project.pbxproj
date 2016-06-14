@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C15CD3D1D101D3800ECA3A8 /* FlyMobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C15CD3C1D101D3800ECA3A8 /* FlyMobSDK.framework */; };
+		2C15CD401D101D4900ECA3A8 /* FlyMobSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C15CD3C1D101D3800ECA3A8 /* FlyMobSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C15CD451D10213700ECA3A8 /* FLYInterstitialTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15CD441D10213700ECA3A8 /* FLYInterstitialTestViewController.m */; };
+		2C15CD491D102B5500ECA3A8 /* FLYNavigationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15CD481D102B5500ECA3A8 /* FLYNavigationBaseViewController.m */; };
 		2CE523AD1D087EEB00EE0CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE523AC1D087EEB00EE0CF6 /* main.m */; };
-		2CE523B01D087EEB00EE0CF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE523AF1D087EEB00EE0CF6 /* AppDelegate.m */; };
-		2CE523B31D087EEB00EE0CF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE523B21D087EEB00EE0CF6 /* ViewController.m */; };
+		2CE523B01D087EEB00EE0CF6 /* FLYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE523AF1D087EEB00EE0CF6 /* FLYAppDelegate.m */; };
+		2CE523B31D087EEB00EE0CF6 /* FLYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE523B21D087EEB00EE0CF6 /* FLYViewController.m */; };
 		2CE523B61D087EEB00EE0CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE523B41D087EEB00EE0CF6 /* Main.storyboard */; };
 		2CE523B81D087EEB00EE0CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE523B71D087EEB00EE0CF6 /* Assets.xcassets */; };
 		2CE523BB1D087EEB00EE0CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE523B91D087EEB00EE0CF6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2C27CC851D097CE9001E25B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2C15CD401D101D4900ECA3A8 /* FlyMobSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C15CD3C1D101D3800ECA3A8 /* FlyMobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlyMobSDK.framework; sourceTree = "<group>"; };
+		2C15CD431D10213700ECA3A8 /* FLYInterstitialTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYInterstitialTestViewController.h; sourceTree = "<group>"; };
+		2C15CD441D10213700ECA3A8 /* FLYInterstitialTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYInterstitialTestViewController.m; sourceTree = "<group>"; };
+		2C15CD471D102B5500ECA3A8 /* FLYNavigationBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYNavigationBaseViewController.h; sourceTree = "<group>"; };
+		2C15CD481D102B5500ECA3A8 /* FLYNavigationBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYNavigationBaseViewController.m; sourceTree = "<group>"; };
 		2CE523A81D087EEB00EE0CF6 /* FlyMob AdShowCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlyMob AdShowCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE523AC1D087EEB00EE0CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2CE523AE1D087EEB00EE0CF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2CE523AF1D087EEB00EE0CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2CE523B11D087EEB00EE0CF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CE523B21D087EEB00EE0CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CE523AE1D087EEB00EE0CF6 /* FLYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYAppDelegate.h; sourceTree = "<group>"; };
+		2CE523AF1D087EEB00EE0CF6 /* FLYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYAppDelegate.m; sourceTree = "<group>"; };
+		2CE523B11D087EEB00EE0CF6 /* FLYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYViewController.h; sourceTree = "<group>"; };
+		2CE523B21D087EEB00EE0CF6 /* FLYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYViewController.m; sourceTree = "<group>"; };
 		2CE523B51D087EEB00EE0CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CE523B71D087EEB00EE0CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE523BA1D087EEB00EE0CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,12 +56,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C15CD3D1D101D3800ECA3A8 /* FlyMobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C15CD391D101AD100ECA3A8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2CE523AE1D087EEB00EE0CF6 /* FLYAppDelegate.h */,
+				2CE523AF1D087EEB00EE0CF6 /* FLYAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2C15CD3A1D101ADB00ECA3A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CE523B41D087EEB00EE0CF6 /* Main.storyboard */,
+				2CE523B71D087EEB00EE0CF6 /* Assets.xcassets */,
+				2CE523B91D087EEB00EE0CF6 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2C15CD3B1D101AE200ECA3A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C15CD461D102B3700ECA3A8 /* Navigation */,
+				2C15CD421D10211D00ECA3A8 /* Interstitial */,
+				2C15CD411D10211700ECA3A8 /* AdSelection */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C15CD3E1D101D3D00ECA3A8 /* FlyMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2C15CD3C1D101D3800ECA3A8 /* FlyMobSDK.framework */,
+			);
+			name = FlyMobSDK;
+			sourceTree = "<group>";
+		};
+		2C15CD411D10211700ECA3A8 /* AdSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2CE523B11D087EEB00EE0CF6 /* FLYViewController.h */,
+				2CE523B21D087EEB00EE0CF6 /* FLYViewController.m */,
+			);
+			name = AdSelection;
+			sourceTree = "<group>";
+		};
+		2C15CD421D10211D00ECA3A8 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				2C15CD431D10213700ECA3A8 /* FLYInterstitialTestViewController.h */,
+				2C15CD441D10213700ECA3A8 /* FLYInterstitialTestViewController.m */,
+			);
+			name = Interstitial;
+			sourceTree = "<group>";
+		};
+		2C15CD461D102B3700ECA3A8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2C15CD471D102B5500ECA3A8 /* FLYNavigationBaseViewController.h */,
+				2C15CD481D102B5500ECA3A8 /* FLYNavigationBaseViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
 		2CE5239F1D087EEB00EE0CF6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +146,10 @@
 		2CE523AA1D087EEB00EE0CF6 /* FlyMob AdShowCase */ = {
 			isa = PBXGroup;
 			children = (
-				2CE523AE1D087EEB00EE0CF6 /* AppDelegate.h */,
-				2CE523AF1D087EEB00EE0CF6 /* AppDelegate.m */,
-				2CE523B11D087EEB00EE0CF6 /* ViewController.h */,
-				2CE523B21D087EEB00EE0CF6 /* ViewController.m */,
-				2CE523B41D087EEB00EE0CF6 /* Main.storyboard */,
-				2CE523B71D087EEB00EE0CF6 /* Assets.xcassets */,
-				2CE523B91D087EEB00EE0CF6 /* LaunchScreen.storyboard */,
-				2CE523BC1D087EEB00EE0CF6 /* Info.plist */,
+				2C15CD3E1D101D3D00ECA3A8 /* FlyMobSDK */,
+				2C15CD391D101AD100ECA3A8 /* AppDelegate */,
+				2C15CD3B1D101AE200ECA3A8 /* ViewControllers */,
+				2C15CD3A1D101ADB00ECA3A8 /* UI */,
 				2CE523AB1D087EEB00EE0CF6 /* Supporting Files */,
 			);
 			path = "FlyMob AdShowCase";
@@ -74,6 +158,7 @@
 		2CE523AB1D087EEB00EE0CF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CE523BC1D087EEB00EE0CF6 /* Info.plist */,
 				2CE523AC1D087EEB00EE0CF6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -89,6 +174,7 @@
 				2CE523A41D087EEB00EE0CF6 /* Sources */,
 				2CE523A51D087EEB00EE0CF6 /* Frameworks */,
 				2CE523A61D087EEB00EE0CF6 /* Resources */,
+				2C27CC851D097CE9001E25B7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,8 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE523B31D087EEB00EE0CF6 /* ViewController.m in Sources */,
-				2CE523B01D087EEB00EE0CF6 /* AppDelegate.m in Sources */,
+				2C15CD451D10213700ECA3A8 /* FLYInterstitialTestViewController.m in Sources */,
+				2C15CD491D102B5500ECA3A8 /* FLYNavigationBaseViewController.m in Sources */,
+				2CE523B31D087EEB00EE0CF6 /* FLYViewController.m in Sources */,
+				2CE523B01D087EEB00EE0CF6 /* FLYAppDelegate.m in Sources */,
 				2CE523AD1D087EEB00EE0CF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +353,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+				);
 				INFOPLIST_FILE = "FlyMob AdShowCase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlyMob.FlyMob-AdShowCase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +374,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+					"$(PROJECT_DIR)/FlyMob",
+					AdShowCase,
+				);
 				INFOPLIST_FILE = "FlyMob AdShowCase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlyMob.FlyMob-AdShowCase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +410,7 @@
 				2CE523C11D087EEB00EE0CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

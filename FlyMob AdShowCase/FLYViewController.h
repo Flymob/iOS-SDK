@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FLYViewController.h
 //  FlyMob AdShowCase
 //
 //  Created by Ivan Kozlov on 08/06/16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FLYViewController : UIViewController
 
 @end
-
