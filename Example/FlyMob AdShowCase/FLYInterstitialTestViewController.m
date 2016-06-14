@@ -12,7 +12,8 @@
 
 @interface FLYInterstitialTestViewController ()
 <
-    FlyMobInterstitialDelegate
+    FlyMobInterstitialDelegate,
+    UITextFieldDelegate
 >
 
 // UI Outlets
@@ -29,22 +30,22 @@
 
 #pragma mark - Lyfecycle
 
--(void)viewDidLoad
+-(void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewWillAppear:animated];
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^
+    {
+        [self loadAd];
+    });
 }
 
 #pragma mark - Actions
 
 -(IBAction)loadButtonClicked:(UIButton *)button
 {
-    _showButton.enabled = NO;
-    [_activityIndicator startAnimating];
-    
-    _interstitial = [FlyMobInterstitial interstitialWithZoneID:_zoneIDTextField.text.integerValue/*659830,657274*/];
-    _interstitial.delegate = self;
-    
-    [_interstitial loadAd];
+    [self loadAd];
 }
 
 -(IBAction)showButtonClicked:(UIButton *)button
@@ -96,7 +97,27 @@
     NSLog(@"Did close");
 }
 
+#pragma mark - UITextFieldDelegate
+
+-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    _showButton.enabled = NO;
+    
+    return YES;
+}
+
 #pragma mark - Helpers
+
+-(void)loadAd
+{
+    _showButton.enabled = NO;
+    [_activityIndicator startAnimating];
+    
+    _interstitial = [FlyMobInterstitial interstitialWithZoneID:_zoneIDTextField.text.integerValue/*659830,657274*/];
+    _interstitial.delegate = self;
+    
+    [_interstitial loadAd];
+}
 
 -(void)showAllert:(NSString *)title
 {

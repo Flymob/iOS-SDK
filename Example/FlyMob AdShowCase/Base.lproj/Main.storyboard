@@ -81,6 +81,9 @@
                                 <rect key="frame" x="20" y="269" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="v8U-v5-ufk" id="b8i-qG-gxK"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHO-ds-gcl">
                                 <rect key="frame" x="20" y="309" width="140" height="30"/>
