@@ -4,11 +4,13 @@
 ### Requirements and Dependencies
 * iOS 8+
 * Allow arbitrary loads for iOS 9+ in project **info.plist** file:
+![](https://cloud.githubusercontent.com/assets/1261116/16084221/051bb8a6-3329-11e6-998b-c62ff5239e57.png)
 
 ### Installation
 1. Download and unzip the FlyMob iOS SDK.
 2. Drag and drop **FlyMob.framework** into your project (check the *"Copy items into destination group's folder"* option)
 3. Add FlyMob.framework to **Embedded Binaries** section
+![](https://cloud.githubusercontent.com/assets/1261116/16084222/06ee55a8-3329-11e6-9815-68039e73d52f.png)
 
 
 ## Usage
