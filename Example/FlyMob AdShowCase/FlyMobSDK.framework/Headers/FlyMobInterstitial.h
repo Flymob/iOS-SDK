@@ -32,16 +32,22 @@
 
 @optional;
 
+// Called when the ad is ready to show
 -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
 
+// Called when initial load request failed. No retry will be done
 -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
 
+// Called when ad controller become visible
 -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
 
+// Any click inside ad controller
 -(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
 
+// Called in 15 min after initial loading
 -(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
 
+// Called when ad controller removed from the screen
 -(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
 
 @end
