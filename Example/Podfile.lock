@@ -1,0 +1,16 @@
+PODS:
+  - FlyMob (1.0.0)
+
+DEPENDENCIES:
+  - FlyMob (from `../`)
+
+EXTERNAL SOURCES:
+  FlyMob:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlyMob: 25d061af13127e7234895982305824a8d8a4bc16
+
+PODFILE CHECKSUM: e46d721b7bdce4f68e52b71c46c5e65d19cf5d4e
+
+COCOAPODS: 1.0.0
