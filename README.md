@@ -17,45 +17,45 @@
 ### Interstitial
 #### Integration & invocation
 1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobInterstitialDelegate** protocol.
-```objc
-#import <FlyMobSDK/FlyMobSDK.h>
-
-@interface TestViewController ()
-<
-    FlyMobInterstitialDelegate
->
-```
+    ```objc
+        #import <FlyMobSDK/FlyMobSDK.h>
+        
+        @interface TestViewController ()
+        <
+            FlyMobInterstitialDelegate
+        >
+    ```
 2. The FlyMob SDK provides a custom class, **FlyMobInterstitial**, that handles fetching and displaying fullscreen interstitial ads. To ensure a smooth experience, you should pre-fetch the content as soon as your View Controller is ready, then display it if the fetch was successful. In the View Controller in which you want to show the interstitial ad, declare a **FlyMobInterstitial** instance variable
-```objc
-@property(nonatomic, strong) FlyMobInterstitial *interstitial;
-```
+    ```objc
+        @property(nonatomic, strong) FlyMobInterstitial *interstitial;
+    ```
 3. Inside **viewWillAppear:** method instantiate **FlyMobInterstitial** and prefetch interstitial ad:
-```objc
-_interstitial = [FlyMobInterstitial interstitialWithZoneID:659830];
-_interstitial.delegate = self;
-[_interstitial loadAd];
-```
+    ```objc
+        _interstitial = [FlyMobInterstitial interstitialWithZoneID:659830];
+        _interstitial.delegate = self;
+        [_interstitial loadAd];
+    ```
 4. There are several **optional** delegate methods:
-```objc
--(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
- 
--(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
- 
--(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
- 
--(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
- 
--(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
- 
--(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
-```
+    ```objc
+        -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
+        
+        -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
+     
+        -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
+     
+        -(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
+     
+        -(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
+     
+        -(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
+    ```
 5. If fetch was successful you can present interstitial ad with **showFromViewController:animated:completion:** method: 
-```objc
-if (_interstitial.isReady)
-{
-    [_interstitial showFromViewController:self animated:YES completion:nil];
-}
-```
+    ```objc
+        if (_interstitial.isReady)
+        {
+            [_interstitial showFromViewController:self animated:YES completion:nil];
+        }
+    ```
 
 #### Conclusion
 Keep in mind following steps:
@@ -66,44 +66,44 @@ Keep in mind following steps:
 ### Native
 #### Integration
 1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobNativeAdDelegate** protocol.
-```objc
-#import <FlyMobSDK/FlyMobSDK.h>
-
-@interface TestViewController ()
-<
-    FlyMobNativeAdDelegate
->
-```
+    ```objc
+        #import <FlyMobSDK/FlyMobSDK.h>
+        
+        @interface TestViewController ()
+        <
+            FlyMobNativeAdDelegate
+        >
+    ```
 2. Use **FlyMobNativeAd** class to fetch native ad
-```objc
-@property(nonatomic, strong) FlyMobNativeAd *nativeAd;
-...
-_nativeAd = [FlyMobNativeAd nativeAdWithZoneID:624470];
-_nativeAd.shouldPreloadImage = YES;
-_nativeAd.shouldPreloadIcon = YES;
-_nativeAd.delegate = self;
-
-[_nativeAd loadAd];
-```
+    ```objc
+        @property(nonatomic, strong) FlyMobNativeAd *nativeAd;
+        ...
+        _nativeAd = [FlyMobNativeAd nativeAdWithZoneID:624470];
+        _nativeAd.shouldPreloadImage = YES;
+        _nativeAd.shouldPreloadIcon = YES;
+        _nativeAd.delegate = self;
+        
+        [_nativeAd loadAd];
+    ```
 3. Optional delegate methods:
-```objc
--(void)nativeAdDidLoadAd:(FlyMobNativeAd *)nativeAd;
-
--(void)nativeAdDidFailToLoadAd:(FlyMobNativeAd *)nativeAd;
-
--(void)nativeAdDidShow:(FlyMobNativeAd *)nativeAd;
-
--(void)nativeAdDidClick:(FlyMobNativeAd *)nativeAd;
-
--(void)nativeAdDidExpire:(FlyMobNativeAd *)nativeAd;
-```
+    ```objc
+        -(void)nativeAdDidLoadAd:(FlyMobNativeAd *)nativeAd;
+        
+        -(void)nativeAdDidFailToLoadAd:(FlyMobNativeAd *)nativeAd;
+        
+        -(void)nativeAdDidShow:(FlyMobNativeAd *)nativeAd;
+        
+        -(void)nativeAdDidClick:(FlyMobNativeAd *)nativeAd;
+        
+        -(void)nativeAdDidExpire:(FlyMobNativeAd *)nativeAd;
+    ```
 4. When your ad successfully you can get all necessary data:
     * **iconURL**
     * **imageURL**
     * **image** - will be nil if **shouldPreloadImage = NO** 
     * **icon** - will be nil if **shouldPreloadIcon = NO** 
-    * cta
-    * rating
-    * text
-    * title
+    * **cta**
+    * **rating**
+    * **text**
+    * **title**
 5. In order to enable handle the impression and the click automatically you must register the ad's view with the FlyMobNativeAd instance. You should call **registerView:**. Please note that if your NativeAd container will not be registered by **registerView:**, ad impression will not be counted. (It is thought that ad was shown, if it was on the screen at least 1 second).
