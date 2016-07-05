@@ -16,45 +16,50 @@
 ## Usage
 ### Interstitial
 #### Integration & invocation
-1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobInterstitialDelegate** protocol.
+1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobInterstitialDelegate** protocol:
+
     ```objc
-        #import <FlyMobSDK/FlyMobSDK.h>
-        
-        @interface TestViewController ()
-        <
-            FlyMobInterstitialDelegate
-        >
+    #import <FlyMobSDK/FlyMobSDK.h>
+    
+    @interface TestViewController ()
+    <
+        FlyMobInterstitialDelegate
+    >
     ```
-2. The FlyMob SDK provides a custom class, **FlyMobInterstitial**, that handles fetching and displaying fullscreen interstitial ads. To ensure a smooth experience, you should pre-fetch the content as soon as your View Controller is ready, then display it if the fetch was successful. In the View Controller in which you want to show the interstitial ad, declare a **FlyMobInterstitial** instance variable
+2. The FlyMob SDK provides a custom class, **FlyMobInterstitial**, that handles fetching and displaying fullscreen interstitial ads. To ensure a smooth experience, you should pre-fetch the content as soon as your View Controller is ready, then display it if the fetch was successful. In the View Controller in which you want to show the interstitial ad, declare a **FlyMobInterstitial** instance variable:
+
     ```objc
-        @property(nonatomic, strong) FlyMobInterstitial *interstitial;
+    @property(nonatomic, strong) FlyMobInterstitial *interstitial;
     ```
 3. Inside **viewWillAppear:** method instantiate **FlyMobInterstitial** and prefetch interstitial ad:
+
     ```objc
-        _interstitial = [FlyMobInterstitial interstitialWithZoneID:659830];
-        _interstitial.delegate = self;
-        [_interstitial loadAd];
+    _interstitial = [FlyMobInterstitial interstitialWithZoneID:659830];
+    _interstitial.delegate = self;
+    [_interstitial loadAd];
     ```
 4. There are several **optional** delegate methods:
+
     ```objc
-        -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
         
-        -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
      
-        -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
      
-        -(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
      
-        -(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
      
-        -(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
     ```
-5. If fetch was successful you can present interstitial ad with **showFromViewController:animated:completion:** method: 
+5. If fetch was successful you can present interstitial ad with **showFromViewController:animated:completion:** method:
+
     ```objc
-        if (_interstitial.isReady)
-        {
-            [_interstitial showFromViewController:self animated:YES completion:nil];
-        }
+    if (_interstitial.isReady)
+    {
+        [_interstitial showFromViewController:self animated:YES completion:nil];
+    }
     ```
 
 #### Conclusion
