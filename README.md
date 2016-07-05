@@ -70,39 +70,43 @@ Keep in mind following steps:
 
 ### Native
 #### Integration
-1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobNativeAdDelegate** protocol.
+1. Import FlyMob SDK in your View Controller. To listen optional evens you can also implement **FlyMobNativeAdDelegate** protocol:
+
     ```objc
-        #import <FlyMobSDK/FlyMobSDK.h>
+    #import <FlyMobSDK/FlyMobSDK.h>
         
-        @interface TestViewController ()
-        <
-            FlyMobNativeAdDelegate
-        >
+    @interface TestViewController ()
+    <
+        FlyMobNativeAdDelegate
+    >
     ```
-2. Use **FlyMobNativeAd** class to fetch native ad
+2. Use **FlyMobNativeAd** class to fetch native ad:
+
     ```objc
-        @property(nonatomic, strong) FlyMobNativeAd *nativeAd;
-        ...
-        _nativeAd = [FlyMobNativeAd nativeAdWithZoneID:624470];
-        _nativeAd.shouldPreloadImage = YES;
-        _nativeAd.shouldPreloadIcon = YES;
-        _nativeAd.delegate = self;
+    @property(nonatomic, strong) FlyMobNativeAd *nativeAd;
+    ...
+    _nativeAd = [FlyMobNativeAd nativeAdWithZoneID:624470];
+    _nativeAd.shouldPreloadImage = YES;
+    _nativeAd.shouldPreloadIcon = YES;
+    _nativeAd.delegate = self;
         
-        [_nativeAd loadAd];
+    [_nativeAd loadAd];
     ```
 3. Optional delegate methods:
+
     ```objc
-        -(void)nativeAdDidLoadAd:(FlyMobNativeAd *)nativeAd;
+    -(void)nativeAdDidLoadAd:(FlyMobNativeAd *)nativeAd;
         
-        -(void)nativeAdDidFailToLoadAd:(FlyMobNativeAd *)nativeAd;
+    -(void)nativeAdDidFailToLoadAd:(FlyMobNativeAd *)nativeAd;
         
-        -(void)nativeAdDidShow:(FlyMobNativeAd *)nativeAd;
+    -(void)nativeAdDidShow:(FlyMobNativeAd *)nativeAd;
         
-        -(void)nativeAdDidClick:(FlyMobNativeAd *)nativeAd;
+    -(void)nativeAdDidClick:(FlyMobNativeAd *)nativeAd;
         
-        -(void)nativeAdDidExpire:(FlyMobNativeAd *)nativeAd;
+    -(void)nativeAdDidExpire:(FlyMobNativeAd *)nativeAd;
     ```
 4. When your ad successfully you can get all necessary data:
+
     * **iconURL**
     * **imageURL**
     * **image** - will be nil if **shouldPreloadImage = NO** 
