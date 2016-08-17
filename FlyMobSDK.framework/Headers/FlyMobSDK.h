@@ -13,4 +13,5 @@ FOUNDATION_EXPORT double FlyMobSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char FlyMobSDKVersionString[];
 
 #import <FlyMobSDK/FlyMobInterstitial.h>
+#import <FlyMobSDK/FlyMobNativeAd.h>
 #import <FlyMobSDK/FLYConfiguration.h>

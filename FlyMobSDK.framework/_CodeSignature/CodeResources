@@ -18,23 +18,27 @@
 		</data>
 		<key>FLYInterstitialViewController.nib</key>
 		<data>
-		+VZkcRHaf7VI+jDfWFt/ILmPPws=
+		jEZvWpTwXPx5Kg06soFufZvo3k8=
 		</data>
 		<key>Headers/FLYConfiguration.h</key>
 		<data>
-		xOC6EOgffa1we+P+LflnGKihU0k=
+		eb45F3N391OC3Bpbxh5FsAzpj7s=
 		</data>
 		<key>Headers/FlyMobInterstitial.h</key>
 		<data>
 		JqkiGPlS3rgrL7JBiF7qw1lJzWw=
 		</data>
+		<key>Headers/FlyMobNativeAd.h</key>
+		<data>
+		XmW5WyTrEnw58sVFhFHouH31bbY=
+		</data>
 		<key>Headers/FlyMobSDK.h</key>
 		<data>
-		Kr2rIUj8YEMpIIBwpWqFmfqJlOU=
+		t9yZ/JAtZtmyOUg+SNskW/qh/I4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f6GZl/tU8cJntpt42czSHA+3ZtE=
+		hnhaYTUMESGMkLR47WFr07/FRL0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,22 +88,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+VZkcRHaf7VI+jDfWFt/ILmPPws=
+			jEZvWpTwXPx5Kg06soFufZvo3k8=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8K3F7RG1RRX8GWD1w/l0E2l04OyyKQplTxvgXFtmjc=
+			F51kXgemkdLQlbS1mcjkf5PZ3Dju2qRiyxBah51qstU=
 			</data>
 		</dict>
 		<key>Headers/FLYConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xOC6EOgffa1we+P+LflnGKihU0k=
+			eb45F3N391OC3Bpbxh5FsAzpj7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			C6QRBc+xSBgjoP5SOk2dcGiQlMX746kRDRBTxv/XzIs=
+			joXoj3Jc7IHEnb+t24YHigR6ljdGN0SZO6+OCfwYUs4=
 			</data>
 		</dict>
 		<key>Headers/FlyMobInterstitial.h</key>
@@ -113,15 +117,26 @@
 			vogIvySJMI4pPjAHQHsdoTw4YPDu+WnzWKh73oEmnJ4=
 			</data>
 		</dict>
+		<key>Headers/FlyMobNativeAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XmW5WyTrEnw58sVFhFHouH31bbY=
+			</data>
+			<key>hash2</key>
+			<data>
+			W02zy38ovZ7Sh5hAdxgR8oxrPaKWnEmQtJObhcsZnw0=
+			</data>
+		</dict>
 		<key>Headers/FlyMobSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kr2rIUj8YEMpIIBwpWqFmfqJlOU=
+			t9yZ/JAtZtmyOUg+SNskW/qh/I4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WAxxe8bYqMhAR/EMLm0NTfmDI0G1p+eP1CFIwYzoxgQ=
+			qFLwRD61/by2wI3htLPwgv5jSYEaxgzk5p9y4AZZOZA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

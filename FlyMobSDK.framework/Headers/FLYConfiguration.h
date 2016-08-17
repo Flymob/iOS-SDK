@@ -6,6 +6,8 @@
 //  Copyright © 2016 Ivan Kozlov. All rights reserved.
 //
 
+// 1.2.4
+
 #import <Foundation/Foundation.h>
 
 @class FLYInterstitialModel;
