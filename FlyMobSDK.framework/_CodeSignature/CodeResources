@@ -18,7 +18,7 @@
 		</data>
 		<key>FLYInterstitialViewController.nib</key>
 		<data>
-		jEZvWpTwXPx5Kg06soFufZvo3k8=
+		XsaziW+pEXv7Qds1aytNNDcsqmw=
 		</data>
 		<key>Headers/FLYConfiguration.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/FlyMobInterstitial.h</key>
 		<data>
-		JqkiGPlS3rgrL7JBiF7qw1lJzWw=
+		zcycEg9BkQcpVAEkw3wWylONALU=
 		</data>
 		<key>Headers/FlyMobNativeAd.h</key>
 		<data>
@@ -38,7 +38,91 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hnhaYTUMESGMkLR47WFr07/FRL0=
+		r/8XZkkBfAsaWsZeXAL07TCHtZM=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		+k0zFZ5W2a/QqZkA7YecIph4HVI=
+		</data>
+		<key>MPAdBrowserController.nib</key>
+		<data>
+		pofLiHdkNFbayzY4pT4q9pxNo3g=
+		</data>
+		<key>MPCloseBtn.png</key>
+		<data>
+		n1yE8ymcpvWE3ViYwcTzG3665/M=
+		</data>
+		<key>MPCloseBtn@2x.png</key>
+		<data>
+		YJGWo+hV40wha6GqWRAKRS9/4Uk=
+		</data>
+		<key>MPCloseBtn@3x.png</key>
+		<data>
+		HiJUP6J3ffmKg92ZbHc5AdHXyHc=
+		</data>
+		<key>MPCloseButtonX.png</key>
+		<data>
+		7N6g1MBal3sIsITnaGUARXJMNsk=
+		</data>
+		<key>MPCloseButtonX@2x.png</key>
+		<data>
+		BOfdZuiYZODBJTU6hS2uLfnRXZs=
+		</data>
+		<key>MPCloseButtonX@3x.png</key>
+		<data>
+		dOnlRWSO+m0WzaTKFeaiRsYBv4A=
+		</data>
+		<key>MPDAAIcon.png</key>
+		<data>
+		dN6Rem2Dxi1PX3WO7TIc2kqHzXc=
+		</data>
+		<key>MPDAAIcon@2x.png</key>
+		<data>
+		4Gn4CUUd+oBZgFNGTfIy1Ip+zCE=
+		</data>
+		<key>MPDAAIcon@3x.png</key>
+		<data>
+		IltId5xe9kzHIDF53O0ZyyT+0Wk=
+		</data>
+		<key>MPMutedBtn.png</key>
+		<data>
+		Ila42HB/dLKi40hXgUuhBFAF5eU=
+		</data>
+		<key>MPMutedBtn@2x.png</key>
+		<data>
+		sxAc3GrEA1PpPKiG64JfZv8mgdA=
+		</data>
+		<key>MPMutedBtn@3x.png</key>
+		<data>
+		2RjpsXhoAY5fchW13XvBMN4g/Ys=
+		</data>
+		<key>MPPlayBtn.png</key>
+		<data>
+		aksYIQTY6K3Cs0Vb/7LkejXCFOs=
+		</data>
+		<key>MPPlayBtn@2x.png</key>
+		<data>
+		5WhhD68hv/j64YTwreghnwcQxrM=
+		</data>
+		<key>MPPlayBtn@3x.png</key>
+		<data>
+		Ci28wpzk84b4ZT2DXNU3u1quZT4=
+		</data>
+		<key>MPUnmutedBtn.png</key>
+		<data>
+		BcBAT0oUyhouo7mkjteis+6Xw7o=
+		</data>
+		<key>MPUnmutedBtn@2x.png</key>
+		<data>
+		CIRbX+ZmvjE+hQYLHkeOXvoMfo4=
+		</data>
+		<key>MPUnmutedBtn@3x.png</key>
+		<data>
+		Prqij/pK+QCOu4BjBVRlV+hkpLo=
+		</data>
+		<key>MRAID.bundle/mraid.js</key>
+		<data>
+		oX1mrmbjet4tPIjvQNiaVb7qTBk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jEZvWpTwXPx5Kg06soFufZvo3k8=
+			XsaziW+pEXv7Qds1aytNNDcsqmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			F51kXgemkdLQlbS1mcjkf5PZ3Dju2qRiyxBah51qstU=
+			Xqso9xqUKmkh/YzQ8BNIJsH4RlaZDGxY1u6jD+PY4Zc=
 			</data>
 		</dict>
 		<key>Headers/FLYConfiguration.h</key>
@@ -110,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JqkiGPlS3rgrL7JBiF7qw1lJzWw=
+			zcycEg9BkQcpVAEkw3wWylONALU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vogIvySJMI4pPjAHQHsdoTw4YPDu+WnzWKh73oEmnJ4=
+			bCkuMYLLiZoLoDz2VYYuIGtqv2mZ9Bqutj0kuuQFi5c=
 			</data>
 		</dict>
 		<key>Headers/FlyMobNativeAd.h</key>
@@ -137,6 +221,237 @@
 			<key>hash2</key>
 			<data>
 			qFLwRD61/by2wI3htLPwgv5jSYEaxgzk5p9y4AZZOZA=
+			</data>
+		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+k0zFZ5W2a/QqZkA7YecIph4HVI=
+			</data>
+			<key>hash2</key>
+			<data>
+			D30YlL3ZFtORN9gcy5kWnFrZodu1lqMxL/qCiyXA2Qk=
+			</data>
+		</dict>
+		<key>MPAdBrowserController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pofLiHdkNFbayzY4pT4q9pxNo3g=
+			</data>
+			<key>hash2</key>
+			<data>
+			BsATVpseKCEAhrXmqP8yL13x48FXPxJZE8dqF1nbSZc=
+			</data>
+		</dict>
+		<key>MPCloseBtn.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n1yE8ymcpvWE3ViYwcTzG3665/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			QrBcpN01NXBexKW3Esx6SKQbXHOcNpg8Ngx019iZnNs=
+			</data>
+		</dict>
+		<key>MPCloseBtn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YJGWo+hV40wha6GqWRAKRS9/4Uk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ls+Bjn0VMnNrq+Pd+pCUqBgN855cLqyL4t6u91/vUdo=
+			</data>
+		</dict>
+		<key>MPCloseBtn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HiJUP6J3ffmKg92ZbHc5AdHXyHc=
+			</data>
+			<key>hash2</key>
+			<data>
+			yciNsQR6jm5NRqiz5Mh6OPz3Bhvu7B74U2n2HBwws2M=
+			</data>
+		</dict>
+		<key>MPCloseButtonX.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7N6g1MBal3sIsITnaGUARXJMNsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			am22x5P+7SVt6F8fWZIcn1rSV/Gz1TjY4yOpnWgn+4c=
+			</data>
+		</dict>
+		<key>MPCloseButtonX@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BOfdZuiYZODBJTU6hS2uLfnRXZs=
+			</data>
+			<key>hash2</key>
+			<data>
+			F+WZ5JeuVassftcDkEZXsiDkWUeHiFglVWmoACH3bdM=
+			</data>
+		</dict>
+		<key>MPCloseButtonX@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dOnlRWSO+m0WzaTKFeaiRsYBv4A=
+			</data>
+			<key>hash2</key>
+			<data>
+			ss0uxZv2ntEpq+dQuViUBuUHCiLqer2LQ7SRUAT3tSY=
+			</data>
+		</dict>
+		<key>MPDAAIcon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dN6Rem2Dxi1PX3WO7TIc2kqHzXc=
+			</data>
+			<key>hash2</key>
+			<data>
+			OPO8OHGYsRvA8H/PJ7HEtYObHQ9Ew97h0fio7+66iwo=
+			</data>
+		</dict>
+		<key>MPDAAIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Gn4CUUd+oBZgFNGTfIy1Ip+zCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			CheVc96lok3lVHXTAn1xXMGR2ozqFhOvO7HUNe+c29w=
+			</data>
+		</dict>
+		<key>MPDAAIcon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IltId5xe9kzHIDF53O0ZyyT+0Wk=
+			</data>
+			<key>hash2</key>
+			<data>
+			0uG1TSu3BwT3rWRQ3H+gH04l42qPKLLeLYnEuwoz6TM=
+			</data>
+		</dict>
+		<key>MPMutedBtn.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ila42HB/dLKi40hXgUuhBFAF5eU=
+			</data>
+			<key>hash2</key>
+			<data>
+			zd2JJUVRzkQiox5BNhGr1UNBGAcl7sUqww8fZHBN+lw=
+			</data>
+		</dict>
+		<key>MPMutedBtn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sxAc3GrEA1PpPKiG64JfZv8mgdA=
+			</data>
+			<key>hash2</key>
+			<data>
+			l43jKZhpqzi6wKz97LUFQsJbY0fJft/09VgLL2LQnRI=
+			</data>
+		</dict>
+		<key>MPMutedBtn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2RjpsXhoAY5fchW13XvBMN4g/Ys=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gofi0aMN38wweIR97ODZf48KQ5I5cL8T+EuuLr1XcXQ=
+			</data>
+		</dict>
+		<key>MPPlayBtn.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aksYIQTY6K3Cs0Vb/7LkejXCFOs=
+			</data>
+			<key>hash2</key>
+			<data>
+			tw7HlJmOBGN2BdJ0uJ7sR8R14E++CbqzMDA3vTKc11w=
+			</data>
+		</dict>
+		<key>MPPlayBtn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5WhhD68hv/j64YTwreghnwcQxrM=
+			</data>
+			<key>hash2</key>
+			<data>
+			x5NMArkpRY0eirIiDUawQX/yTn9JDQRW5DJhTdJLBpY=
+			</data>
+		</dict>
+		<key>MPPlayBtn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ci28wpzk84b4ZT2DXNU3u1quZT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FJAyEhTfiPXoQu13MeX09+cJy7+bsx4AvdZ11GyHrz0=
+			</data>
+		</dict>
+		<key>MPUnmutedBtn.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BcBAT0oUyhouo7mkjteis+6Xw7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			p5jfaQvL5bKwqhKCihrYKkEf3JakKUK4K2Bn57IbO28=
+			</data>
+		</dict>
+		<key>MPUnmutedBtn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CIRbX+ZmvjE+hQYLHkeOXvoMfo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			1nnaLqZqRcN3LvMubv82KP3shW3mv5i6UTRGQrVtA/w=
+			</data>
+		</dict>
+		<key>MPUnmutedBtn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Prqij/pK+QCOu4BjBVRlV+hkpLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gs88M7OSMeYipwt+NclYc6wA1x/r26n4ubg4DxCC83A=
+			</data>
+		</dict>
+		<key>MRAID.bundle/mraid.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oX1mrmbjet4tPIjvQNiaVb7qTBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sy2yVNi/H6RkVTf+oDHNlDj5llFYIh2VdMZMZYQz9eQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

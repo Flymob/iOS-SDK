@@ -22,9 +22,7 @@
 
 -(void)loadAd;
 
--(void)showFromViewController:(UIViewController *)viewController
-                     animated:(BOOL)animated
-                   completion:(dispatch_block_t)completion;
+-(void)showFromViewController:(UIViewController *)viewController;
 
 @end
 
@@ -36,7 +34,8 @@
 -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
 
 // Called when initial load request failed. No retry will be done
--(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
+-(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial
+                             error:(NSError *)error;
 
 // Called when ad controller become visible
 -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;

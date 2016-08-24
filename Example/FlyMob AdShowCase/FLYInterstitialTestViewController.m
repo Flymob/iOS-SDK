@@ -54,7 +54,7 @@
     
     if (_interstitial.isReady)
     {
-        [_interstitial showFromViewController:self animated:YES completion:nil];
+        [_interstitial showFromViewController:self];
     }
 }
 
@@ -69,12 +69,13 @@
 }
 
 -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitialController
+                             error:(NSError *)error
 {
     [_activityIndicator stopAnimating];
     
-    [self showAllert:@"Failed to load ad"];
+    [self showAllert:[NSString stringWithFormat:@"Failed to load ad: %@", error.domain]];
     
-    NSLog(@"Did fail");
+    NSLog(@"Did fail: %@", error.domain);
 }
 
 -(void)interstitialDidShow:(FlyMobInterstitial *)interstitialController
