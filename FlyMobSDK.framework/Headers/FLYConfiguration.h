@@ -18,7 +18,7 @@ typedef void (^FLYConfigurationFailureBlock)(NSError *error);
 @interface FLYConfiguration : NSObject
 
 @property(nonatomic) BOOL coppa;
-@property(nonatomic) BOOL shouldTrack;
+@property(nonatomic) BOOL dnt;
 @property(nonatomic) BOOL testing;
 @property(nonatomic) NSUInteger zoneID;
 
