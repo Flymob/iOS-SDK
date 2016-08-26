@@ -43,7 +43,7 @@
     ```objc
     -(void)interstitialDidLoadAd:(FlyMobInterstitial *)interstitial;
         
-    -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial;
+    -(void)interstitialDidFailToLoadAd:(FlyMobInterstitial *)interstitial error:(NSError *)error;
      
     -(void)interstitialDidShow:(FlyMobInterstitial *)interstitial;
      
