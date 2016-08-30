@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FlyMob"
-  s.version      = "1.0.0"
+  s.version      = "1.2.4"
   s.summary      = "FlyMod iOS SDK"
 
   # This description is used to generate tags and improve search results.

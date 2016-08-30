@@ -18,7 +18,7 @@
 		</data>
 		<key>FLYInterstitialViewController.nib</key>
 		<data>
-		XCABybHwoobnQsY06y9x1/TihuI=
+		14VLWlnqBsup+o59RjQhiXIna5g=
 		</data>
 		<key>Headers/FLYConfiguration.h</key>
 		<data>
@@ -32,9 +32,13 @@
 		<data>
 		XmW5WyTrEnw58sVFhFHouH31bbY=
 		</data>
+		<key>Headers/FlyMobRewardedVideo.h</key>
+		<data>
+		kFBfWCGtWvNvMQjB2zpj3gchhd0=
+		</data>
 		<key>Headers/FlyMobSDK.h</key>
 		<data>
-		t9yZ/JAtZtmyOUg+SNskW/qh/I4=
+		Kx54t+bMiqrSoLC9Hr32MdK5uB0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>MPAdBrowserController.nib</key>
 		<data>
-		8nMCht0X2l69dRJWl9Ygo3B8yi0=
+		8/LTA5RnDGnqF0WtgK6C7zfcONo=
 		</data>
 		<key>MPCloseBtn.png</key>
 		<data>
@@ -172,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XCABybHwoobnQsY06y9x1/TihuI=
+			14VLWlnqBsup+o59RjQhiXIna5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			7vZklsBtx9oyqFOAQBSuXAjavv9gMLWHDzIPgoOFSLE=
+			Y612aNH1xhV3xBg/9EZcGkt8uyNHbXuj2kth8VQi2ng=
 			</data>
 		</dict>
 		<key>Headers/FLYConfiguration.h</key>
@@ -212,15 +216,26 @@
 			W02zy38ovZ7Sh5hAdxgR8oxrPaKWnEmQtJObhcsZnw0=
 			</data>
 		</dict>
+		<key>Headers/FlyMobRewardedVideo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kFBfWCGtWvNvMQjB2zpj3gchhd0=
+			</data>
+			<key>hash2</key>
+			<data>
+			BQG1YbO/yifJQCSN9Ch+NU5UZfOMhqP+LEY/65MauDo=
+			</data>
+		</dict>
 		<key>Headers/FlyMobSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t9yZ/JAtZtmyOUg+SNskW/qh/I4=
+			Kx54t+bMiqrSoLC9Hr32MdK5uB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			qFLwRD61/by2wI3htLPwgv5jSYEaxgzk5p9y4AZZOZA=
+			anMyUo45oB/YL6se5wNuLuNZfY+uSQHaHIgzVH3Iil4=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -238,11 +253,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8nMCht0X2l69dRJWl9Ygo3B8yi0=
+			8/LTA5RnDGnqF0WtgK6C7zfcONo=
 			</data>
 			<key>hash2</key>
 			<data>
-			88+EIq7d6c2tCuv3Yt+27fIBF5414ABpJ8C5GevpjHo=
+			YPaKDT1AiQtY27CCXyp0wZcYYYDAgMGlesZG2e9U5j4=
 			</data>
 		</dict>
 		<key>MPCloseBtn.png</key>
