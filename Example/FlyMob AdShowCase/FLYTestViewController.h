@@ -1,5 +1,5 @@
 //
-//  FLYInterstitialTestViewController.h
+//  FLYTestViewController.h
 //  FlyMob AdShowCase
 //
 //  Created by Ivan Kozlov on 14/06/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FLYInterstitialTestViewController : UIViewController
+@interface FLYTestViewController : UIViewController
 
 @end

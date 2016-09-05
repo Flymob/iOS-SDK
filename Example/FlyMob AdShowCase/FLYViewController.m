@@ -7,13 +7,12 @@
 //
 
 #import "FLYViewController.h"
-#import "FLYInterstitialTestViewController.h"
+#import "FLYTestViewController.h"
 
 static NSString *const kAdTypeCellIdentifer = @"AdTypeCell";
 
 @interface FLYViewController ()
 <
-
     UITableViewDelegate,
     UITableViewDataSource
 >
@@ -28,7 +27,7 @@ static NSString *const kAdTypeCellIdentifer = @"AdTypeCell";
 {
     [super viewDidLoad];
     
-    _rowTitles = @[@"Interstitial"];
+    _rowTitles = @[@"Interstitial", @"Native Ad", @"Rewarded Video"];
 }
 
 #pragma mark - UITableViewDelegate
@@ -40,7 +39,7 @@ static NSString *const kAdTypeCellIdentifer = @"AdTypeCell";
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return _rowTitles.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -57,10 +56,31 @@ static NSString *const kAdTypeCellIdentifer = @"AdTypeCell";
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.row == 0)
+    switch (indexPath.row)
     {
-        [self performSegueWithIdentifier:NSStringFromClass([FLYInterstitialTestViewController class]) sender:self];
+        case 0:
+        {
+            [self performSegueWithIdentifier:NSStringFromClass([FLYTestViewController class]) sender:self];
+        }
+            break;
+        case 1:
+        {
+            
+        }
+            break;
+        case 2:
+        {
+            
+        }
+            break;
     }
+}
+
+#pragma mark - Navigation
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
 }
 
 @end

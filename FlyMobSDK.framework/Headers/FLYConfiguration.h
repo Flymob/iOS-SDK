@@ -6,8 +6,6 @@
 //  Copyright © 2016 Ivan Kozlov. All rights reserved.
 //
 
-// 1.2.4
-
 #import <Foundation/Foundation.h>
 
 @class FLYInterstitialModel;
@@ -20,10 +18,9 @@ typedef void (^FLYConfigurationFailureBlock)(NSError *error);
 @property(nonatomic) BOOL coppa;
 @property(nonatomic) BOOL dnt;
 @property(nonatomic) BOOL testing;
-@property(nonatomic) NSUInteger zoneID;
 
 +(instancetype)sharedInstance;
 
--(NSDictionary *)dictionaryRepresentation;
+-(NSDictionary *)dictionaryRepresentation:(NSUInteger)zoneID;
 
 @end

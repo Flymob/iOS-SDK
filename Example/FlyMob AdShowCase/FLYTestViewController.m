@@ -1,16 +1,16 @@
 //
-//  FLYInterstitialTestViewController.m
+//  FLYTestViewController.m
 //  FlyMob AdShowCase
 //
 //  Created by Ivan Kozlov on 14/06/16.
 //  Copyright © 2016 FlyMob. All rights reserved.
 //
 
-#import "FLYInterstitialTestViewController.h"
+#import "FLYTestViewController.h"
 
 #import <FlyMobSDK/FlyMobSDK.h>
 
-@interface FLYInterstitialTestViewController ()
+@interface FLYTestViewController ()
 <
     FlyMobInterstitialDelegate,
     UITextFieldDelegate
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation FLYInterstitialTestViewController
+@implementation FLYTestViewController
 
 #pragma mark - Lyfecycle
 

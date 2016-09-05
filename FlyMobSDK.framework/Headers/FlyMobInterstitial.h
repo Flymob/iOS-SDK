@@ -43,10 +43,10 @@
 // Any click inside ad controller
 -(void)interstitialDidClick:(FlyMobInterstitial *)interstitial;
 
-// Called in 15 min after initial loading
--(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
-
 // Called when ad controller removed from the screen
 -(void)interstitialDidClose:(FlyMobInterstitial *)interstitial;
+
+// Called in 15 min after initial loading
+-(void)interstitialDidExpire:(FlyMobInterstitial *)interstitial;
 
 @end
