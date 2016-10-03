@@ -1,5 +1,5 @@
 PODS:
-  - FlyMob (1.4.4)
+  - FlyMob (1.5.0)
 
 DEPENDENCIES:
   - FlyMob (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlyMob: d26bd955ba76b56a5bb7af863fdf5876d463242a
+  FlyMob: ee6e8921927aedcb4c881f4775d951cda2df3c14
 
 PODFILE CHECKSUM: 0e5defffaed32633d1d6e38c5580e3609f5bcad9
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
