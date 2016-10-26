@@ -1,5 +1,5 @@
 PODS:
-  - FlyMob (1.5.3)
+  - FlyMob (1.5.4)
 
 DEPENDENCIES:
   - FlyMob (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlyMob: 12ee5fefc5143e7c3e8ee9899802c8e44fd78c94
+  FlyMob: 0af60aea3ed4a9424be433a4da8dfbe1f2f488ca
 
 PODFILE CHECKSUM: 0e5defffaed32633d1d6e38c5580e3609f5bcad9
 
