@@ -10,6 +10,8 @@
 
 #import <FlyMobSDK/FlyMobSDK.h>
 
+int ZONE_ID = 123456;
+
 @interface FLYTestViewController ()
 <
     FlyMobInterstitialDelegate,
