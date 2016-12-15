@@ -10,8 +10,6 @@
 
 #import <FlyMobSDK/FlyMobSDK.h>
 
-int ZONE_ID = 123456;
-
 @interface FLYTestViewController ()
 <
     FlyMobInterstitialDelegate,
@@ -35,6 +33,8 @@ int ZONE_ID = 123456;
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    _zoneIDTextField.text = @"934103";
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^
@@ -116,7 +116,7 @@ int ZONE_ID = 123456;
     _showButton.enabled = NO;
     [_activityIndicator startAnimating];
     
-    _interstitial = [FlyMobInterstitial interstitialWithZoneID:_zoneIDTextField.text.integerValue/*659830,657274*/];
+    _interstitial = [FlyMobInterstitial interstitialWithZoneID:_zoneIDTextField.text.integerValue/*934103*/];
     _interstitial.delegate = self;
     
     [_interstitial loadAd];
