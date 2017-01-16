@@ -14,15 +14,13 @@
 
 @interface FlyMobRewardedVideo : NSObject
 
-@property(nonatomic) NSUInteger zoneID;
-@property(nonatomic) BOOL isReady;
-@property(nonatomic, weak) id<FlyMobRewardedVideoDelegate> delegate;
++(instancetype)initialize:(NSUInteger)zoneID;
 
-+(instancetype)rewardedVideoWithZoneID:(NSUInteger)zoneID;
++(void)showFromViewController:(UIViewController *)viewController;
 
--(void)loadAd;
++(BOOL)isReady;
 
--(void)showFromViewController:(UIViewController *)viewController;
++(void)setDelegate:(id<FlyMobRewardedVideoDelegate>) delegate;
 
 @end
 
@@ -32,10 +30,6 @@
 
 // Called when the ad is ready to show
 -(void)rewardedVideoDidLoadAd:(FlyMobRewardedVideo *)rewardedVideo;
-
-// Called when initial load request failed. No retry will be done
--(void)rewardedVideoDidFailToLoadAd:(FlyMobRewardedVideo *)rewardedVideo
-                              error:(NSError *)error;
 
 // Called when ad controller become visible
 -(void)rewardedVideoDidShow:(FlyMobRewardedVideo *)rewardedVideo;
@@ -48,8 +42,5 @@
 
 // Called when ad controller removed from the screen
 -(void)rewardedVideoDidClose:(FlyMobRewardedVideo *)rewardedVideo;
-
-// Called in 15 min after initial loading
--(void)rewardedVideoDidExpire:(FlyMobRewardedVideo *)rewardedVideo;
 
 @end
